@@ -1,0 +1,109 @@
+/* mobile & table */
+@media (max-width: 63.9375em) {
+    .btn {
+        padding: 15px 16px;
+    }
+
+    #nav .subnav a {
+        padding: 4px 12px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    .contact-info {
+        line-height: 2.0;
+    }
+
+    #footer .copyright a {
+        padding: 16px 0;
+        display: inline-block;
+    }
+
+    .contact-submit-btn {
+        font-size: 16px;
+    }
+
+    .font-tickets-btn {
+        font-size: 16px;
+    }
+}
+
+/* table */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .contact-info {
+        line-height: 2.0;
+    }
+
+    #footer .socials-list {
+        font-size: 48px;
+    }
+}
+
+/* Mobile */
+/* 739px */
+@media (max-width: 46.1875em) {
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav li a {      
+        padding: 1px 24px;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #000;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 42px;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+    #header {
+        overflow:hidden;
+    }
+
+    #content .avata {
+        width: 70%;
+    }
+
+    /* #content .avata {
+        width: 114px;
+    } */
+    .contact-form {
+        margin-top: 32px;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    #footer .socials-list {
+        font-size: 30px;
+    }
+
+}
+
